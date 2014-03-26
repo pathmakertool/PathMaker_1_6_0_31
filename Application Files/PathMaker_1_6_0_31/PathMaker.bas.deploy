@@ -1,7 +1,7 @@
 Attribute VB_Name = "PathMaker"
 Public Sub ExportPathMakerFile()
     GlobalVar.runningMacro = True
-
+    REM dummy text added to force version update
     Util.CheckIfSaveVSDFile
     
     Dim pg As Page, newPg As Page
